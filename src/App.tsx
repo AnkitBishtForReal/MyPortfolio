@@ -3,8 +3,10 @@ import About from './About'
 
 import Header from './Header'
 import Home from './Home'
-import Ankit from './Ankit'
-import Bisht from './Bisht'
+import Ankit from './Project'
+import Bisht from './Resume'
+import Project from './Project'
+import Resume from './Resume'
 function App() {
 
 
@@ -13,8 +15,9 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Ankit />
-      <Bisht />
+      <Project/>
+      <Resume/>
+     
 
     </div>
   )

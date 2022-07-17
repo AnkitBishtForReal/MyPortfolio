@@ -12,10 +12,10 @@ const Header: FC<HeaderProps> = (props) => {
         <nav className="p-5">
             <ul>
                 <li>
-                    <a className="p-2" href="#about">Home</a>
-                    <a className="p-2" href="#products">About</a>
-                    <a className="p-2" href="#services">Projects</a>
-                    <a className="p-2" href="#contact">Resume</a>
+                    <a className="p-2" href="#home">Home</a>
+                    <a className="p-2" href="#about">About</a>
+                    <a className="p-2" href="#project">Projects</a>
+                    <a className="p-2" href="#resume">Resume</a>
 
                 </li>
             </ul>
