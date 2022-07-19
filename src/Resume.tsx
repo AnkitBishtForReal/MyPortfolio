@@ -19,32 +19,32 @@ const Resume: FC<ResumeProps> = (props) => {
          
         
                 <dt>
-                  <div className="px-4 py-6 flex">
+                  <div className="px-4 py-6 flex grid grid-cols-2 gap">
               <dt className="text-sm font-medium text-gray-500">Name</dt>
-              <span className="px-32"></span>
+             
               <dd  >Ankit Bisht </dd>
               </div>
        
     
          
-          <div className="flex  px-4 py-6">
+          <div className="flex  px-4 py-6 grid grid-cols-2 gap">
               <dt className="text-sm font-medium text-gray-500">Education</dt>
-              <span className="px-32"></span>
+              
               <dd   >Civil Engineering Diploma From GP Lohaghat </dd>
           </div>
-          <div className="flex  px-4 py-6 ">
+          <div className="flex  px-4 py-6 grid grid-cols-2 gap ">
               <dt className="text-sm font-medium text-gray-500">Intermediate</dt>
-              <span className="px-32"></span>
+          
               <dd>Oakland Public School Lohaghat </dd>
           </div>
-          <div className="flex  px-4 py-6 ">
+          <div className="flex  px-4 py-6 grid grid-cols-2 gap ">
               <dt className="text-sm font-medium text-gray-500">Certiificates</dt>
-              <span className="px-32"></span>
+           
               <dd >Code Yogi 6 months Completion Certificate</dd>
           </div>
-          <div className="flex  px-4 py-6 ">
+          <div className="flex  px-4 py-6 grid grid-cols-2 gap ">
               <dt className="text-sm font-medium text-gray-500">Skills</dt>
-              <span className="px-32"></span>
+              
               <dd >Tailwind Css,JavaScript,React,Redux,Redux Saga,TypeScript</dd>
           </div>
 </dt>

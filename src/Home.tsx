@@ -9,7 +9,7 @@ const Home: FC<HomeProps> = (props) => {
                 <h2 className="py-3 text-5xl  md:text-7xl font-bold">I like coding. </h2>
             </div>
             <div>
-                <img className="rounded-full object-cover border-8 border-gray-400  w-3/4   " src="https://cdn.discordapp.com/attachments/966570615236595712/997465364571099167/IMG-20220103-WA00263.jpg" />
+                <img className=" w-32 rounded-full object-cover border-8 border-gray-400 sm:w-3/4 " src="https://cdn.discordapp.com/attachments/966570615236595712/997465364571099167/IMG-20220103-WA00263.jpg" />
             </div>
         </div>
     </section>
