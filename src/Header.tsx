@@ -52,7 +52,7 @@ const Header: FC<HeaderProps> = (props) => {
 
   return (
     <>
-      <div className=" bg-red-500 hidden sm:block ">
+      <div className="hidden sm:block ">
         {food.map(([emoji, hueA, hueB]) => (
           <Card emoji={emoji} hueA={hueA} hueB={hueB} key={emoji} />
         ))}

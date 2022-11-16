@@ -16,11 +16,11 @@ interface Props {
 
 const cardVariants: Variants = {
   offscreen: {
-    y: 300,
+    y: 200,
   },
   onscreen: {
     y: 50,
-    rotate: -10,
+    rotate: -5,
     transition: {
       type: "spring",
       bounce: 0.4,
