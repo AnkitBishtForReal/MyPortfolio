@@ -21,7 +21,7 @@ const Header: FC<HeaderProps> = (props) => {
   const navigate = useNavigate();
   const food: [any, number, number][] = [
     [
-      <button className="sm:p-2 p-1 " onClick={() => navigate("/home")}>
+      <button className="sm:p-2 p-1  " onClick={() => navigate("/home")}>
         Home
       </button>,
       340,

@@ -16,11 +16,11 @@ interface Props {
 
 const cardVariants: Variants = {
   offscreen: {
-    y: 200,
+    y: 300,
   },
   onscreen: {
     y: 50,
-    rotate: -5,
+    rotate: -10,
     transition: {
       type: "spring",
       bounce: 0.4,
@@ -43,7 +43,7 @@ function Card({ emoji, hueA, hueB }: Props) {
     >
       <div className="splash" style={{ background }} />
       <motion.div className="card " variants={cardVariants}>
-        {emoji}
+        <div className="bg-red-500"> {emoji}</div>
       </motion.div>
     </motion.div>
   );
