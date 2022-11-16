@@ -1,6 +1,15 @@
+import { motion } from "framer-motion";
 import { FC } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  useNavigate,
+  BrowserRouter,
+} from "react-router-dom";
 type ProjectProps = {};
 const Project: FC<ProjectProps> = (props) => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className=" p-2 border-b-8 border-gray-200 ">
@@ -46,6 +55,23 @@ const Project: FC<ProjectProps> = (props) => {
           </div>
         </div>
       </div>
+      <motion.button
+        onClick={() => navigate("/")}
+        animate={{
+          scale: [1, 2, 2, 1, 1],
+          rotate: [0, 0, 180, 180, 0],
+          borderRadius: ["0%", "0%", "50%", "50%", "0%"],
+        }}
+        transition={{
+          duration: 2,
+          ease: "easeInOut",
+          times: [0, 0.2, 0.5, 0.8, 1],
+          repeat: Infinity,
+          repeatDelay: 1,
+        }}
+      >
+        Back
+      </motion.button>
     </div>
   );
 };
