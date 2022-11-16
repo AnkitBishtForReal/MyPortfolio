@@ -28,15 +28,13 @@ const Project: FC<ProjectProps> = (props) => {
               About Project-Simple Todo App using react, taiwind css
             </p>
           </div>
-          <div></div>
-          <div>
-            <a
-              className="bg-blue-800 rounded-md  p-1 sm:p-2"
-              href="https://shimmering-moonbeam-ef209f.netlify.app"
-            >
-              See Project
-            </a>
-          </div>
+
+          <a
+            className="bg-blue-800 rounded-md  p-1 sm:p-2 sm:w-32 sm:h-10"
+            href="https://shimmering-moonbeam-ef209f.netlify.app"
+          >
+            See Project
+          </a>
         </div>
         <div className=" sm:flex">
           <div>
@@ -45,14 +43,13 @@ const Project: FC<ProjectProps> = (props) => {
               About Project-Its a show finder app using Redux, Redux Saga,
             </p>
           </div>
-          <div>
-            <a
-              className="bg-blue-800 rounded-md p-1 sm:p-2"
-              href="https://gentle-sundae-9d98a0.netlify.app"
-            >
-              See Project
-            </a>
-          </div>
+
+          <a
+            className="bg-blue-800 rounded-md p-1 sm:p-2 sm:w-36 sm:h-10"
+            href="https://gentle-sundae-9d98a0.netlify.app"
+          >
+            See Project
+          </a>
         </div>
       </div>
       <motion.button
